@@ -1,0 +1,56 @@
+
+$turqouse: #44ddd0;
+$green: #0eb938;
+$blue: blue;
+$lightgreen: #45f69e;
+$darkgreen: rgb(0,100,80);
+
+$light: #f8f8f8;
+
+$link: $lightgreen;
+
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+html {
+  background: linear-gradient(to right top, $turqouse, $green);
+}
+
+html, body {
+  height: 100%;
+}
+
+
+.centered-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.modal-box {
+  min-height: 15rem;
+  width: 100%;
+  max-width: 40rem;
+  background: white;
+  border-radius: 0.25rem;
+  padding: 3rem;
+
+}
+
+.title {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.white-box {
+  padding: 35px;
+  background: white;
+  border-radius: 5px;
+
+  width: 20rem;
+  max-width: 20rem;
+}
